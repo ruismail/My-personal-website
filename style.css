@@ -1,0 +1,43 @@
+
+#name{
+    color: darkgoldenrod;
+}
+.link{
+    .link{
+        text-decoration: none;
+        background-color: orange;
+        padding: 10px 20px;
+        border-radius: 5px;
+        color: white;
+        font-weight: bold;
+    }
+}
+.half{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half img{
+    width: 100%;
+}
+.link{
+    text-decoration: none;
+    background-color: orange;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+.top{
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+}
+.middle{
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+}
+.end{
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+}
