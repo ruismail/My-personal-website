@@ -1,16 +1,17 @@
-
+body{
+    margin: 0px;
+}
 #name{
     color: darkgoldenrod;
 }
+
 .link{
-    .link{
         text-decoration: none;
         background-color: orange;
         padding: 10px 20px;
         border-radius: 5px;
         color: white;
         font-weight: bold;
-    }
 }
 .half{
     width: 40%;
@@ -40,4 +41,35 @@
 .end{
     background-image: url("images/latest-work-bg.png");
     background-repeat: no-repeat;
+    float: inline-end;
+}
+.working-image{
+    width: 20%;
+    float: left;
+    margin-left: 10%;
+    padding-left: 1%;
+    
+}
+.working-image img{
+    width: 100%;
+}
+.foter{
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+    float: inline-end;
+    margin: 10px 10px 10px;
+    
+}
+.end-half{
+    width: 80%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+.end-div{
+    width: 60px;
+    background-image: linear-gradient(green,blue);
+    margin: 10px 5px 10px;
 }
